@@ -5,7 +5,7 @@ import { useParams } from "react-router-dom";
 import { useTheme } from "../hooks/useTheme";
 
 const DetailCard = () => {
-  const {theme, handleTheme} = useTheme();
+  const {theme} = useTheme();
 
   const [denstista, setDentista] = useState([])
   const [user, setUser] = useState([])

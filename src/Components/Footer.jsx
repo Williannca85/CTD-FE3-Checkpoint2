@@ -6,7 +6,7 @@ const Footer = () => {
     window.scrollTo(0, 0)
   }
 
-  const { theme, handleTheme } = useTheme('dark');
+  const {theme} = useTheme('dark');
   const verificaTemaEscuro = theme === "dark" || false
 
 

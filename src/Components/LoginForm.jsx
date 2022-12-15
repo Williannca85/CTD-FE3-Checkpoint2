@@ -9,7 +9,7 @@ const LoginForm = () => {
   const [password, setPassword] = useState("");
   const {changeToken} = useToken();
 
-  const {theme, handleTheme} = useTheme();
+  const {theme} = useTheme();
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {

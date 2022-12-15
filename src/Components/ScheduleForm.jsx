@@ -15,7 +15,7 @@ const ScheduleForm = () => {
   const {token} = useToken();
   const navigate = useNavigate();
 
-  const { theme, handleTheme } = useTheme();
+  const { theme} = useTheme();
 
 
 
