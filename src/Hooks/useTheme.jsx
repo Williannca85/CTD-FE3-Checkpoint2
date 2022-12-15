@@ -11,7 +11,7 @@ export function ThemeProvider(props) {
     const [theme, setTheme] = useState(themeLocalStorage === null ? 'btn-dark' : themeLocalStorage)
 
     // Função responsável por Trocar o Tema
-    function changeTheme(themeRecieved) {
+    function handleTheme(themeRecieved) {
 
         if(themeRecieved !== theme) {
 
