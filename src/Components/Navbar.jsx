@@ -59,7 +59,7 @@ const Navbar = () => {
                  está em dark mode e deverá utilizar o icone ☀ ou 🌙 e btn-dark ou btn-light*/}
                 <button
                   className={`btn btn-${theme} ${styles.btnStyle}`}
-                  onClick={() => changeTheme(theme === 'dark' ? 'light' : 'dark')}
+                  onClick={() => handleTheme(theme === 'dark' ? 'light' : 'dark')}
                 >
                   {theme === 'light' ? '🌙' : '☀'}
                   

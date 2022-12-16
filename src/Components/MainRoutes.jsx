@@ -3,7 +3,7 @@ import { useTheme } from "../hooks/useTheme";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 
-export function MainLayout() {
+export function MainRoutes() {
     const {theme} = useTheme();
     
     return (

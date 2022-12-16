@@ -1,6 +1,6 @@
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { MainLayout } from "./Components/MainLayout";
+import { MainRoutes } from "./Components/MainRoutes";
 import { ThemeProvider } from "./hooks/useTheme";
 import { TokenProvider } from "./hooks/useToken";
 import Detail from "./Routes/Detail";
@@ -11,7 +11,7 @@ function App() {
   const appRouter = createBrowserRouter([
     {
       path: '',
-      element: <MainLayout />,
+      element: <MainRoutes />,
       children: [
         {
           path: '',
