@@ -1,4 +1,4 @@
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useTheme } from "../hooks/useTheme";
 import { useToken } from "../hooks/useToken";
 import styles from "./Navbar.module.css";
